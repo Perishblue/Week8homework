@@ -7,20 +7,19 @@ public class Manager extends Employee {
     specific roles.*/
 
     double baseSalary;
-    double bonus;
 
-    public Manager(String name, double baseSalary, double bonus) {
+
+    public Manager(String name, double baseSalary) {
         super(name, "Manager");
         this.baseSalary = baseSalary;
-        this.bonus = bonus;
     }
 
     public double calculateSalary() {
-        return baseSalary + bonus;
+        return baseSalary;
     }
 
     public static void main(String[] args) {
-        Employee emp1 = new Manager("Perishblue", 7500.0, 1500.0);
+        Employee emp1 = new Manager("Perishblue", 7500.0);
         System.out.println("Manager: " + emp1.getName() + "\nRole: " + emp1.getRole() + "\nSalary: £" + emp1.calculateSalary());
     }
 }

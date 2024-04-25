@@ -7,19 +7,17 @@ public class Programer extends Employee{
     specific roles.*/
 
     double baseSalary;
-    double overtimePay;
 
-    public Programer(String name, double baseSalary, double overtimePay) {
+    public Programer(String name, double baseSalary) {
         super(name, "Programer");
         this.baseSalary = baseSalary;
-        this.overtimePay = overtimePay;
     }
     public double calculateSalary() {
-        return baseSalary + overtimePay;
+        return baseSalary;
     }
 
     public static void main(String[] args) {
-        Employee emp2 = new Programer("Perish", 5000.0, 600.0);
+        Employee emp2 = new Programer("Perish", 5000.0);
         System.out.println("\nProgramer: " + emp2.getName() + "\nRole: " + emp2.getRole() + "\nSalary: £" + emp2.calculateSalary());
 
     }
