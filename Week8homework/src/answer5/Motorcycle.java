@@ -1,4 +1,4 @@
-package Answer5;
+package answer5;
 
 public class Motorcycle extends Vehical {
 

@@ -1,4 +1,4 @@
-package Answer8;
+package answer8;
 
 public class Employee {
     /*Write a Java program to create a class Employee with a method called

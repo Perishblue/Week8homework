@@ -1,4 +1,4 @@
-package Answer9;
+package answer9;
 
 public class Animal {
     /*Write a Java program to create a base class Animal with methods move() and

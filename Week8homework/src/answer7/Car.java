@@ -1,4 +1,4 @@
-package Answer7;
+package answer7;
 
 public class Car extends Vehical{
     /*Write a Java program to create a class Vehicle with a method called speedUp(). Create

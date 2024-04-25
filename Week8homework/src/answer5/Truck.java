@@ -1,4 +1,4 @@
-package Answer5;
+package answer5;
 
 public class Truck extends Vehical {
      /*Write a Java program to create a vehicle class hierarchy. The base class should be

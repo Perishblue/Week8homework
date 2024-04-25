@@ -1,6 +1,4 @@
-package Answer7;
-
-import answer2.Car;
+package answer7;
 
 public class Vehical {
     /*Write a Java program to create a class Vehicle with a method called speedUp(). Create
