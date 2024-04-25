@@ -11,6 +11,7 @@ public class Bicycle extends Vehical{
     }
 
     public static void main(String[] args) {
+
         Bicycle bicycle = new Bicycle();
         bicycle.speedUp();
     }
