@@ -1,4 +1,4 @@
-package Answer12;
+package answer12;
 
 public class BankAccount {
    /* Write a Java program to create a class called BankAccount with private instance

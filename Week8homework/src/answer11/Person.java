@@ -1,4 +1,4 @@
-package Answer11;
+package answer11;
 
 public class Person {
    /* Write a Java program to create a class called Person with private instance variables
