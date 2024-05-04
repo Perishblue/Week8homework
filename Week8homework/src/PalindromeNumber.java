@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalimoreNumber {
+public class PalindromeNumber {
    /* Write a method called isPalindrome with one int parameter called number.
     The method needs to return a boolean.
     Itshould return true ifthe number is a palindrome number otherwise itshould return false.
