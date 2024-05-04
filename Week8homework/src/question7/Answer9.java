@@ -1,4 +1,4 @@
-package question9;
+package question7;
 
 public class Answer9 {
    /* Write a method named sumFirstAndLastDigit with one parameter of type int called number.
